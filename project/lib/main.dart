@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/intropage.dart';
 import 'home.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Item Details App',
-      home: HomePage(),
+      home: IntroPage(),
     );
   }
 }
